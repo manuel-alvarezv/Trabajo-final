@@ -1,0 +1,121 @@
+.contenedorLogo {
+    display: flex;
+    justify-content: center;
+    background-color: bisque;
+   border: 5px solid black;
+}
+.container {
+   display: flex;
+   border: 3px solid black ;
+   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
+   
+}
+#lista_productos {
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: row;
+   justify-content:space-between;
+   box-sizing: border-box;
+   padding: 16px;
+   background-color: bisque;
+    
+}
+h5{
+ margin-top: 10px;
+ margin-left: 10px ;
+ font-size: 20px;  
+ font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+.producto {
+   margin-top: 35px;
+   border: 2px solid black;
+   list-style: none;
+   background-color: white;
+}
+
+
+.header{
+    background-color: bisque;
+    height: 110px;
+    margin-top: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 2px solid black ;
+    
+}
+
+div>div>a{
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+div>a{
+    color: brown;
+}
+a:hover{cursor: pointer;
+    color: rgb(17, 0, 255);
+
+}
+
+body{
+    background-color: darkgray;
+    
+    
+}
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    unicode-bidi: isolate;
+}
+.footer{
+    margin-top: 40px;
+    border: 2px solid black;
+    background-color: bisque;
+    padding-left: 5px;
+}
+        
+#compra{
+    margin-left: 950px;
+}
+
+
+.contenedorInicio {
+    margin-top: 40px;
+    background-color: bisque;
+    border: 2px solid black;
+    padding-left: 5px;
+    padding-right: 5px;   
+}
+
+.conteinerFoto {
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+
+.texto {
+    font-size: larger;
+}
+.contenedorCompra{
+    background-color:bisque;
+    height: auto;
+    width: 100%;
+    border: 2px solid black;
+    margin-top: 40px;
+    padding-left: 10px;
+}
+.final{
+    font-size: medium;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h3>p{
+    font-size: medium;
+    font-weight:200;
+}
